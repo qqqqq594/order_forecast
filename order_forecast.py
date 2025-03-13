@@ -1,10 +1,4 @@
-# 🔒 비밀번호 보호 기능 (Streamlit Cloud의 secrets 사용)
-PASSWORD = st.secrets["PASSWORD"]
-
-password_input = st.text_input("비밀번호를 입력하세요:", type="password")
-if password_input != PASSWORD:
-    st.warning("비밀번호가 틀렸습니다! 😭")
-    st.stop()  # 비밀번호가 맞지 않으면 코드 중단import pandas as pd
+import pandas as pd
 import numpy as np
 import streamlit as st
 
